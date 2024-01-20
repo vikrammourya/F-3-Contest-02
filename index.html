@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food Ordering System</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="food" style="display: flex;">
+            <div id="navbar">
+                <div class="profiles"> <img src="./Image/javanese.png"
+                        alt="profile"></div>
+                <div id="profile-name">Your Restaurant Menu </div>
+                <div id="profile-location">Your Slogan</div>
+
+                <h3>Quick Links</h3>
+                <ul class="port">
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">Your Order</a></li>
+                    <li><a href="#" class="nav-link">Wallet</a></li>
+                    <li><a href="#" class="nav-link">Profile</a></li>
+                    <li><a href="#" class="nav-link">LogOut</a></li>
+                </ul>
+
+                <h3>More About Us</h3>
+                <ul class="port">
+                    <li><a href="#" class="nav-link">Our Blog</a></li>
+                    <li><a href="#" class="nav-link">Upcoming Dishes</a></li>
+                    <li><a href="#" class="nav-link">Our Story</a></li>
+                    <li><a href="#" class="nav-link">Social Media Links</a></li>
+                </ul>
+            </div>
+
+            <div class="right-window" style="background-color: black; width: 1700px;">
+                <div class="top-right-window" style="margin-left: 20px;">
+                    <div class="nav">
+                        <div class="search">
+                            <label for="input"><i class="fa-solid fa-search"></i></label>
+                            <input type="text" id="input"
+                                placeholder="Search Food Item...">
+                        </div>
+                        <div class="btns">
+                            <button class="btn">Sign Up</button>
+                            <button class="btn">Log In</button>
+                        </div>
+                        <div class="profile">
+                            <img src="./Image/Profile2.png" alt="logo"  height="60px" width="60px">
+                        </div>
+                    </div>
+                    <div class="hero">
+                        <img src="./Image/main.png" alt="Hero" width="100%">
+                    </div>
+                    <h3 class="menu" style="color: azure;">Menu</h3>
+                </div>
+                <div class="loader" style="margin-left: 20px;">
+                    <div class="loader-cursor">
+
+                    </div>
+                </div>
+                <div id="container" class="flex" style="margin-left: 20px;">
+
+                </div>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+
+    </body>
+</html>
